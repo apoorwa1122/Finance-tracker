@@ -1,63 +1,70 @@
+# Getting Started with Create React App
 
-Financial Tracker App
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A dynamic and user-friendly web application designed to help users manage their finances effectively. Built using the MERN stack, this app provides features to track income, expenses, and generate insights for better financial planning.
+## Available Scripts
 
-Features
-Expense Tracking: Add, edit, and delete expense entries with categories and descriptions.
-Income Management: Log income sources and monitor financial inflow.
-Visual Insights: View spending patterns with interactive charts and graphs.
-Budget Planning: Set monthly budgets and track progress.
-Secure Authentication: User registration and login with encrypted credentials.
-Tech Stack
-Frontend: React.js, Tailwind CSS, Bootstrap
-Backend: Node.js, Express.js
-Database: MongoDB
-Authentication: JSON Web Tokens (JWT)
-Installation
-Clone the repository:
+In the project directory, you can run:
 
-bash
+### `npm start`
 
-cd financial-tracker-app  
-Install dependencies:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-bash
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-npm install  
-cd client  
-npm install  
-Configure the environment variables:
+### `npm test`
 
-Create a .env file in the root directory and add your MongoDB URI and JWT secret.
-Run the app:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-bash
+### `npm run build`
 
-npm run dev  
-Future Enhancements
-Add support for recurring transactions.
-Integration with bank APIs for automatic updates.
-Expense categorization with AI suggestions.
-Contributing
-Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-SCREENSHORTS
-![Screenshot (82)](https://github.com/user-attachments/assets/baeca60d-5ec2-4b28-8b5c-0613c08de2a2)
-![Screenshot (83)](https://github.com/user-attachments/assets/35d6c402-8933-4358-968a-9152d2c4b7b4)
-![Screenshot (84)](https://github.com/user-attachments/assets/e4b90cfa-5eb9-4383-98a1-266911214a96)
-![Screenshot (85)](https://github.com/user-attachments/assets/600972b3-0941-4719-bc7c-5f47e2a6009c)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-Contact
-For queries or suggestions, feel free to reach out:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Email: apoorwa1122@gmail.com
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-LinkedIn: www.linkedin.com/in/apoorva-singh1221
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
