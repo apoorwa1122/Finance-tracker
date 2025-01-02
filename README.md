@@ -19,7 +19,6 @@ Clone the repository:
 
 bash
 
-git clone https://github.com/yourusername/financial-tracker-app.git  
 cd financial-tracker-app  
 Install dependencies:
 
